@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+    <body>
+        <header class="hero">
+            <div class="parallax1">    
+                <nav>
+                    <a href="#services">Services</a>
+                    <a href="#schedule-section">Schedule</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#contact">Contact</a>
+                 </nav>
+    
+                <div class="hero-content ">
+                    <h1>Transform Your Body <br> with <span>Pro Fitness Coaching</span></h1>
+                        <p>Personalized training programs, expert nutrition advice, and motivation to help you achieve your fitness goals.</p>
+                            <button class="cta-button">Book a Free Session</button>
+                </div>
+            </div>
+        </header>
+    
+        <section id="services" class="fade-in">
+            <div class="parallax2">
+                <h2>Our Services</h2>
+                <p class="section-intro">We offer a variety of training programs designed to fit your lifestyle, fitness level, and goals.</p>
+    
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Personal Training">
+                        <h3>Personal Training</h3>
+                        <p>Work one-on-one with a certified trainer who tailors every session to your unique fitness needs.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://media.istockphoto.com/id/1195045259/photo/get-your-body-in-balance.webp?a=1&b=1&s=612x612&w=0&k=20&c=eHrUP8zaVX2k5SYchUkftGdYSUDlr_agWX1qOC6PdvI=" alt="Group Classes">
+                        <h3>Group Classes</h3>
+                        <p>Join high-energy classes that keep you motivated, burn calories, and help you build strength together.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://media.istockphoto.com/id/1423997728/photo/top-view-asian-man-and-woman-healthy-eating-salad-after-exercise-at-fitness-gym.webp?a=1&b=1&s=612x612&w=0&k=20&c=jafyhCN-NWNMEdVS_nS_fcA5lz6Iv2AygqEzn3vgSZY=" alt="Nutrition Coaching">
+                        <h3>Nutrition Coaching</h3>
+                        <p>Get custom meal plans and expert advice to fuel your workouts and support long-term health.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1663126271945-881bd77caf8d?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nutrition Coaching">
+                        <h3>Fitness Equipment Access</h3>
+                        <p>Get access to top-of-the-line fitness equipment to enhance your training experience.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div>
+            <section id="schedule-section" class="fade-in">
+                <h2>Weekly Schedule</h2>
+                <p class="section-intro">Check out our weekly training schedule and find a time that works for you.</p>
+
+                <div id="schedule"></div>
+            </section>
+        </div>
+
+        <section id="testimonials" class="fade-in">
+            <div class="parallax3">
+                <h2>What Our Clients Say</h2>
+
+                <div class="testimonial-container">
+        
+                    <div class="testimonial active">
+                        <p>“I’ve never felt stronger! The coaching here is top-notch, and the trainers genuinely care.”</p>
+                        <strong>- Sarah K.</strong>
+                    </div>
+                    <div class="testimonial">
+                        <p>“The group classes are so much fun and motivating! Highly recommended.”</p>
+                        <strong>- Mike T.</strong>
+                    </div>
+                    <div class="testimonial">
+                        <p>“My nutrition plan changed my life — more energy, better results, and I feel amazing!”</p>
+                        <strong>- Jessica R.</strong>
+                    </div>
+                </div>
+
+                    <div class="testimonial-buttons">
+                        <button id="prevTestimonial">‹</button>
+                        <button id="nextTestimonial">›</button>
+                    </div>
+                </div>
+        </section>
+
+
+        <section id="contact" class="fade-in">
+            <div class="">
+                <h2>Contact Us</h2>
+                <p class="section-intro">Have questions or want to book a session? Fill out the form below and we’ll get back to you!</p>
+    
+                <form id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+        
+
+    </body>
+    <script src="script.js"></script>
+</html>
+

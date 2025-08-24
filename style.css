@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+
+}
+
+body {
+     font-family: 
+    "Source Sans Pro",
+    sans-serif;
+    font-weight: 400;
+}
+
+
+
+.hero nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+}
+.hero nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.hero nav a:hover {
+    color: #a37e05; 
+}
+.hero-content {
+        
+    text-align: center;
+    padding: 0 20px;
+    margin-top: 200px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    color: #8f8e8e;
+}
+
+.hero-content h1 span {
+    color: #f0b90b;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.cta-button {
+    background-color: #f0b90b;
+    color: #000;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #a37e05;
+    transform: scale(1.05);
+}
+
+
+.parallax1 {
+    background-image: url("man-with-body.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+
+
+#services {
+    text-align: center;
+}
+.section-intro {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff; /* White for clarity */
+   
+    padding-top: 30px;
+}
+#services h2::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #f0b90b; 
+    margin: 10px auto 0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    margin-top: 120px;
+}
+
+.service-card {
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    transition: transform 0.3s ease;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    margin: 15px 0 10px;
+    font-size: 1.4rem;
+    color: #f0b90b; /* Slightly muted yellow */
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7); /* Improves readability */
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85); /* Softer white */
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+.parallax2{
+    background-image: url("attractive-shirtless-man-cap-is-doing-lunge-with-barbell-dark-photo-studio.jpg");
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#testimonials {
+    background-color: #111;
+    color: #fff;
+    
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    color: #f0b90b;
+    margin-bottom: 30px;
+    padding-top: 78px;
+}
+
+.testimonial-container {
+    max-width: 700px;
+    margin: 0 auto;
+    position: relative;
+     padding-top: 78px;
+
+}
+
+.testimonial {
+    display: none;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
+    min-height: 150px;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 15px;
+    color: #f0b90b;
+}
+
+
+.testimonial-buttons {
+    margin-top: 20px;
+}
+
+.testimonial-buttons button {
+    background: #f0b90b;
+    border: none;
+    color: #000;
+    font-size: 1.5rem;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.testimonial-buttons button:hover {
+    transform: scale(1.1);
+}
+
+.parallax3{
+    background-image: url("powerful-stylish-bodybuilder-with-tattoo-his-arm-doing-exercises-with-dumbbells-isolated-dark-background.jpg");
+    height: 664px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#schedule-section {
+    padding: 60px 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+#schedule-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #f0b90b;
+}
+
+#schedule-section .section-intro {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+
+#schedule {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.schedule-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.schedule-item strong {
+    display: block;
+    font-size: 1.2rem;
+    color: #f0b90b;
+    margin-bottom: 5px;
+}
+
+.schedule-item:hover {
+    transform: translateY(-5px);
+}
+#contact {
+    padding: 60px 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #f0b90b;
+}
+
+#contact .section-intro {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.75);
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+
+#contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #fff;
+    font-size: 1rem;
+}
+
+
+.cta-button {
+    background-color: #f0b90b;
+    color: #000;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d8a60a;
+}
